@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #16213E;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Navbar */
+
+/* .header-scrolled {
+    box-shadow: 0px 2px 8px rgba(214, 9, 9, 0.8);
+    padding: 12px 0;
+} */
+
+/* End Navbar */
+
+/* Header */
+
+
+.heroFont {
+    color: #FF4B5C;
+    font-size: 42px;
+}
+
+.hero-desc {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.B:hover {
+    text-decoration: none;
+}
+
+.vector-hero {
+    display: block;
+}
+
+.button-primary {
+    background: #134989;
+    border: none;
+    box-shadow: 0 6px 0 #0a0a0a;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.button-primary:active {
+    box-shadow: none;
+    top: 4px;
+    border: none;
+    position: relative;
+}
+
+.button-primary:hover {
+    border: none;
+    background: #134989;
+    text-decoration: none;
+    color: #FF4B5C;
+}
+
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+.send {
+    display: inline-block;
+    color: rgb(5, 5, 5);
+}
+
+
+.send::after {
+    content: ' ';
+    display: block;
+    border-bottom: 3px solid #dc0b51;
+    width: 50%;
+    padding-bottom: 7px;
+    margin: auto;
+    margin-bottom: -8px;
+}
+
+.ellipse {
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    z-index: -1;
+    opacity: .6;
+}
+
+/* Info Panel */
+
+.info-panel {
+    background-color: #0F3460;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    margin: auto;
+}
+
+/* Interest */
+
+.interest {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color:#0F3460;
+}
+
+.interest .button-primary{
+    font-size: 16px;
+    padding: 10px 30px;
+    margin-right: 12px;
+}
+
+/* End Interest */
+
+/* End Info Panel */
+
+@media screen and (max-width: 513px) {
+
+    /*ukuran layar dengan lebar di bawah 513px */
+
+    /* Header */
+    .heroFont {
+        font-size: 24px;
+    }
+
+    .hero-desc {
+
+        font-size: 14px;
+        letter-spacing: 1px !important;
+    }
+
+    .button-hero {
+        margin-top: 30px !important;
+    }
+
+    .button-primary {
+        font-size: 18px;
+    }
+
+    .email {
+        font-size: 18px;
+    }
+    .tengah {
+        margin: auto;
+        display: block !important;
+        text-align: center;
+    }
+
+    .ellipse {
+        display: none;
+    }
+    /* End Header */
+
+    /* Info Panel */
+
+    .jarak {
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+    
+    /* End Info panel */
+        
+    /* Interest */
+    .interest{
+        display: block;
+        padding: 15px;
+        text-align: center;
+        margin: auto !important;
+    }
+
+    .interest h3 {
+        font-size: 14px;
+    }
+    .interest .button-primary{
+        font-size: 8px;
+        padding: 8px 10px;
+        
+    }
+    /* End Interest */
+}

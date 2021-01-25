@@ -190,3 +190,11 @@ body {
     }
     /* End Interest */
 }
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-thumb {
+    background: #FF403F; 
+    border-radius: 50px;
+}
